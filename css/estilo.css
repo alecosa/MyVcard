@@ -1,0 +1,53 @@
+@font-face{
+    font-family: FuturLig;
+    src:url("../Fuente/FuturLig.ttf");
+}
+
+body{
+    background-color:#f0f9f1;
+    font-family: FuturLig;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    color:#333333;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 50px;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
+
+input[type=text]{
+    font-family: FuturLig;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input[type=submit]{
+    background-color:#328bd7;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 50px;
+    color: #f0f9f1;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+select{
+    background-color:#ffffff;
+    width:80%;
+    height: 34px;
+    text-align:center;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+}
+
+small{
+    color:#328bd7;
+}
